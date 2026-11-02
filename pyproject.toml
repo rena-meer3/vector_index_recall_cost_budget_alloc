@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rena-meer3-vecdb_jd462"
+name = "rena-meer3-vector_index_recall_cost_budget_alloc"
 version = "0.1.0"
 description = "按给定权重把总额度分配到各项，报告超分配项与利用率"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://rena-meer3.github.io"
-Repository = "https://github.com/rena-meer3/vecdb_jd462"
-Issues = "https://github.com/rena-meer3/vecdb_jd462/issues"
+Repository = "https://github.com/rena-meer3/vector_index_recall_cost_budget_alloc"
+Issues = "https://github.com/rena-meer3/vector_index_recall_cost_budget_alloc/issues"
 
 [project.scripts]
-vecdb_jd462 = "vecdb_jd462:main"
+vector_index_recall_cost_budget_alloc = "vector_index_recall_cost_budget_alloc:main"
 
 [tool.setuptools]
-py-modules = ["vecdb_jd462"]
+py-modules = ["vector_index_recall_cost_budget_alloc"]

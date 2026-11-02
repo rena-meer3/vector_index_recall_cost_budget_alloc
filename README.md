@@ -1,11 +1,11 @@
-# vecdb_jd462
+# vector_index_recall_cost_budget_alloc
 
 **按权重把向量数据库内核工程师·向量索引的召回与构建代价的额度分配到各项。**
 
-`vecdb_jd462` —— 按给定权重把总额度分配到各项，报告超分配项与利用率
+`vector_index_recall_cost_budget_alloc` —— 按给定权重把总额度分配到各项，报告超分配项与利用率
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`vecdb_jd462.py` 拷走就能用
+- 单文件，`vector_index_recall_cost_budget_alloc.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install rena-meer3-vecdb_jd462
+pip install rena-meer3-vector_index_recall_cost_budget_alloc
 ```
 
 装完直接用命令名调用：
 
 ```bash
-vecdb_jd462 --help
+vector_index_recall_cost_budget_alloc --help
 ```
 
-也可以不用安装，直接把 `vecdb_jd462.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `vector_index_recall_cost_budget_alloc.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ vecdb_jd462 --help
 ## 用法
 
 ```bash
-python vecdb_jd462.py --file input.txt
-python vecdb_jd462.py --text "示例内容"
-python vecdb_jd462.py --file input.txt --json
+python vector_index_recall_cost_budget_alloc.py --file input.txt
+python vector_index_recall_cost_budget_alloc.py --text "示例内容"
+python vector_index_recall_cost_budget_alloc.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python vecdb_jd462.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_vecdb_jd462.py
+python test_vector_index_recall_cost_budget_alloc.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_vecdb_jd462.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/rena-meer3/vecdb_jd462>
+- GitHub 仓库：<https://github.com/rena-meer3/vector_index_recall_cost_budget_alloc>
 
 ---
 
@@ -79,7 +79,7 @@ python test_vecdb_jd462.py
 rena-meer3 做向量数据库内核工程师·向量索引的召回与构建代价相关的问题，方向对标百度的初级向量数据库内核工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://rena-meer3.github.io>
-- 仓库：<https://github.com/rena-meer3/vecdb_jd462>
+- 仓库：<https://github.com/rena-meer3/vector_index_recall_cost_budget_alloc>
 
 ## 许可
 
